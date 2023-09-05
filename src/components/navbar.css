@@ -1,0 +1,52 @@
+nav {
+  height: 10vh;
+  width: initial;
+  background-color: var(--s);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nounder {
+  text-decoration: underline;
+  text-decoration-color: var(--p);
+}
+.logo-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.logo-heading > p {
+  font-family: "MetropolisNF", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: large;
+  letter-spacing: 2px;
+  text-decoration: underline;
+  text-decoration-color: var(--s);
+}
+.home-link {
+  font-family: "MetropolisNF", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: large;
+  letter-spacing: 2px;
+  color: var(--p);
+  text-decoration: none;
+  list-style: none;
+  text-decoration: underline;
+  text-decoration-color: var(--s);
+}
+.home-link:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--p);
+}
+.logo {
+  height: auto;
+  width: 20px;
+  text-decoration: underline;
+  text-decoration-color: var(--s);
+}
+.logo-heading {
+  color: var(--p);
+}

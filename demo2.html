@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    :root {
+      --p: #fea116;
+      --s: #0f172b;
+      --t: #222533;
+      --f: #ffffff;
+    }
+    body {
+      background-color: var(--t);
+    }
+    nav {
+      height: 10vh;
+      width: initial;
+      background-color: var(--s);
+    }
+    .logo-heading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+    .logo {
+      height: auto;
+      width: 20px;
+    }
+    .logo-heading {
+      color: var(--p);
+    }
+    img {
+      height: 300px;
+      width: auto;
+    }
+    .main {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 90vh;
+      width: 100%;
+    }
+    h1 {
+      color: var(--f);
+    }
+    .left-sub {
+      color: var(--f);
+    }
+    button {
+      height: 35px;
+      width: 100px;
+      border: none;
+      outline: none;
+      background-color: var(--p);
+      color: var(--f);
+      border-radius: 3.5px;
+    }
+    button:hover {
+      background-color: var(--f);
+      color: var(--p);
+    }
+  </style>
+  <body>
+    <div class="main">
+      <div class="left">
+        <h1 class="left-head">Unleash Your Inner Chef</h1>
+        <p class="left-sub">
+          "Explore a world of culinary delights and transform ordinary
+          ingredients into <br />extraordinary dishes with our curated recipes,
+          tips, and inspiration."
+        </p>
+        <button id="next">Let's Go</button>
+      </div>
+      <div class="right">
+        <img src="./src/assests/logo.png" />
+      </div>
+    </div>
+  </body>
+</html>

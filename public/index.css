@@ -1,0 +1,31 @@
+:root {
+  --primary: #ffffff;
+  --secondary: #fea116;
+  --tri: #222533;
+  --for: #0f172b;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  ::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--for); /* Color of the thumb */
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--for); /* Color of the thumb on hover */
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: var(--tri); /* Color of the track */
+  }
+  ::-webkit-scrollbar-corner {
+    border-radius: 10px;
+  }
+}
